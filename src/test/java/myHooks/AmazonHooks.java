@@ -10,7 +10,7 @@ public class AmazonHooks {
 	@Before(order=1) 
 	public void setup_Browser(Scenario sc){
 		System.out.println("start broeswer");
-		System.out.println(sc.);
+		System.out.println();
 	}
 	@Before(order=2) 
 	public void setup_Url() {
